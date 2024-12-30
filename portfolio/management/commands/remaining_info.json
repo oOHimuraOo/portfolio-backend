@@ -2,7 +2,7 @@
     "projetos": {
         "portfolio": {
             "name": "Portfolio",
-            "subprojetos": {
+            "subprojects": {
                 "Portfolio FrontEnd": {
                     "name": "Portfolio FrontEnd",
                     "description": "Toda a infraestrutura visual e resposividade do site de portfolio. O FrontEnd foi construido inteiramente com vue com TypeScript",
