@@ -144,7 +144,7 @@ class Command(BaseCommand):
                 self.stdout.write(f"Projeto '{projeto_name}' ignorado por falta de modificações.")
 
             # Processar subprojetos
-            for subprojeto_data in projeto_data.get("subprojetos", {}).values():
+            for subprojeto_data in projeto_data.get("subprojects", {}).values():
                 subprojeto_name = subprojeto_data.get("name")
                 existing_subproject = SubProjetoModel.objects.filter(name=subprojeto_name).first()
 
